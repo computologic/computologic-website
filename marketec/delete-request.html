@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Request | Computologic</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 40px auto; padding: 20px; background-color: #f4f7f6; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { color: #d9534f; margin-top: 0; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; font-size: 0.9em; }
+        input { width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+        button { width: 100%; background-color: #d9534f; color: white; padding: 14px; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.3s; }
+        button:hover { background-color: #c9302c; }
+        .footer { margin-top: 20px; font-size: 0.8em; color: #666; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Data Deletion Request</h2>
+        <p>To comply with Google Play policies, use this form to request the removal of your account and associated data from the Marketec system.</p>
+        
+        <form action="mailto:info@computologic.com" method="post" enctype="text/plain">
+            <label for="key">Client Key (Required)</label>
+            <input type="text" id="key" name="ClientKey" placeholder="Enter your unique Client Key" required>
+
+            <label for="user">Username</label>
+            <input type="text" id="user" name="Username" placeholder="Enter your Username" required>
+
+            <label for="pass">Password (For Verification)</label>
+            <input type="password" id="pass" name="Password" placeholder="Enter password to verify identity" required>
+
+            <button type="submit">Submit Deletion Request</button>
+        </form>
+    </div>
+    <div class="footer">
+        Your request will be sent to <strong>info@computologic.com</strong>. <br>
+        We will process and confirm your data removal within 30 days.
+    </div>
+</body>
+</html>
