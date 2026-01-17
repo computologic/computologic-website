@@ -1,125 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketec - Computologic</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <style>
-        /* Basic Mobile-First Reset/Styles */
-        body {
-            font-family: sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 15px;
-            color: #333;
-        }
-        header, main, footer {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        nav {
-            background: #f8f9fa;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        /* Stack links on mobile, side-by-side on desktop */
-        nav a {
-            display: inline-block;
-            margin: 5px 0;
-            text-decoration: none;
-            color: #007bff;
-        }
-        .hero {
-            text-align: center;
-            padding: 20px 0;
-        }
-        /* Make buttons look better on touch screens */
-        .btn-link {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 5px;
-            background: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .btn-delete {
-            display: inline-block;
-            background: #f2f2f2;
-            color: #d9534f;
-            padding: 10px 20px;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: bold;
-            border: 1px solid #d9534f;
-            margin: 5px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        @media (max-width: 600px) {
-            nav a {
-                display: block; /* Stack navigation links on small screens */
-                border-bottom: 1px solid #eee;
-                padding: 8px 0;
-            }
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Marketec - Computologic</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Marketec (PC App)</h1>
-        <nav>
-            <a href="index.html">Home</a> 
-            <a href="purchase.html">Request License / Purchase</a> 
-            <a href="privacy.html">Privacy Notice</a> 
-            <a href="delete-request.html">Data Deletion</a> 
-            <a href="../index.html">Computologic Home</a>
-        </nav>
-    </header>
+    <header>
+        <h1>Marketec (PC App)</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="purchase.html">Request License / Purchase</a> |
+            <a href="privacy.html">Privacy Notice</a> |
+            <a href="delete-request.html">Data Deletion</a> | <a href="../index.html">Computologic Home</a>
+        </nav>
+    </header>
 
-    <main>
-        <section class="hero">
-            <h2>Smart Inventory & Product Lookup for Windows PC</h2>
-            <p>Marketec makes stock management, product lookup, and reporting fast and easy for businesses.</p>
-            <div style="margin: 20px 0;">
-                <a href="purchase.html" class="btn-link">Request License / Purchase</a>
-                <a href="privacy.html" class="btn-link">Privacy Notice</a>
-                <br>
-                <a href="delete-request.html" class="btn-delete">Data Deletion Request</a>
-            </div>
-            <p>
-                <a href="https://play.google.com/store/apps/details?id=com.computologic.marketec" target="_blank" style="font-weight: bold;">
-                    Get Marketec Lookup (Android)
-                </a>
-            </p>
-        </section>
+    <main>
+        <section class="hero">
+            <h2>Smart Inventory & Product Lookup for Windows PC</h2>
+            <p>Marketec makes stock management, product lookup, and reporting fast and easy for businesses.</p>
+            <p>
+                <a href="purchase.html">Request License / Purchase</a>
+                <a href="privacy.html">Privacy Notice</a>
+                <a href="delete-request.html" style="background:#f2f2f2; color:#d9534f; padding:5px 10px; border-radius:4px; text-decoration:none; font-weight:bold; border:1px solid #d9534f;">Data Deletion Request</a>
+            </p>
+            <p>
+                <a href="https://play.google.com/store/apps/details?id=com.computologic.marketec" target="_blank">Marketec Lookup (Android)</a>
+            </p>
+        </section>
 
-        <hr>
+        <section class="features">
+            <h3>Key Features</h3>
+            <ul>
+                <li>Quick inventory search and lookup</li>
+                <li>PC-based app for full functionality</li>
+                <li>Supports cloud sync for licensed users</li>
+                <li>Optional Android companion app: Marketec Lookup</li>
+            </ul>
+        </section>
 
-        <section class="features">
-            <h3>Key Features</h3>
-            <ul>
-                <li>Quick inventory search and lookup</li>
-                <li>PC-based app for full functionality</li>
-                <li>Supports cloud sync for licensed users</li>
-                <li>Optional Android companion app: Marketec Lookup</li>
-            </ul>
-        </section>
+        <section class="android-info">
+            <h3>About Marketec Lookup</h3>
+            <p>Marketec Lookup is a free Android companion app for Marketec PC users. It allows you to view and search your inventory on the go. No license is required for Marketec Lookup.</p>
+            <p><a href="https://play.google.com/store/apps/details?id=com.computologic.marketec" target="_blank">Download Marketec Lookup</a></p>
+        </section>
+    </main>
 
-        <section class="android-info">
-            <h3>About Marketec Lookup</h3>
-            <p>Marketec Lookup is a free Android companion app for Marketec PC users. It allows you to view and search your inventory on the go. No license is required for Marketec Lookup.</p>
-            <p><a href="https://play.google.com/store/apps/details?id=com.computologic.marketec" target="_blank" class="btn-link" style="background: #28a745;">Download Marketec Lookup</a></p>
-        </section>
-    </main>
-
-    <footer style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px; font-size: 0.9em; text-align: center;">
-        &copy; 2026 Computologic. All rights reserved. <br>
-        <a href="delete-request.html">Account & Data Deletion</a>
-    </footer>
+    <footer style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px;">
+        &copy; 2026 Computologic. All rights reserved. | <a href="delete-request.html">Account & Data Deletion</a>
+    </footer>
 </body>
 </html>
